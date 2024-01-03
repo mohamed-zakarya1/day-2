@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(62, 62, 255), rgb(254, 61, 61));
+}
+
+form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  padding: 50px;
+  position: relative;
+}
+
+form h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+}
+
+form label {
+  margin: 10px;
+}
+
+form input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+form button {
+  margin-bottom: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#btnSignUp {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+#btnSignUp a {
+  padding-right: 10px;
+}

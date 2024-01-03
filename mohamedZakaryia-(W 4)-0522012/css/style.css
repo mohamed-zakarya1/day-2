@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background-image: linear-gradient(to right, rgb(73, 73, 250), #61b3f2);
+}
+
+header h1 {
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 30px;
+  font-size: 50px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 28px;
+  transition: 0.5s;
+  border: 3px solid;
+  padding: 4px;
+}
+
+header nav ul li a:hover {
+  background-color: black;
+  color: #fff;
+  border: none;
+}
+
+/* styling the slider */
+
+.sliding {
+  overflow: hidden;
+}
+
+.sliderItem {
+  display: flex;
+  justify-content: center;
+  width: 400vw;
+  transition: 1.5s ease-in-out;
+}
+
+.sliderItem .slider {
+  width: 100vw;
+  display: flex;
+  padding: 20px;
+  position: relative;
+}
+
+.sliderItem .slider .left-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliderItem .slider .left-top p {
+  font-size: 30px;
+}
+
+.sliderItem .slider .left button {
+  background-color: black;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  left: 20%;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  outline: none;
+  margin-left: 40%;
+}
+
+.sliderItem .slider .right button {
+  background-color: black;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-left: 40%;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  outline: none;
+}
+
+.sliderItem .slider button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sliderItem .slider button:hover {
+  background-color: #fff;
+}
+
+.sliderItem .slider button:hover a {
+  color: black;
+  opacity: 0.8;
+}
+
+.sliderItem .slider img {
+  width: 150px;
+  height: 150px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+footer ul li {
+  font-size: 30px;
+}
+
+#shoppingCartIcon {
+  position: absolute;
+  right: 15px;
+  top: 30px;
+}
+
+#shoppingCartIcon img {
+  width: 50px;
+  height: 40px;
+}
